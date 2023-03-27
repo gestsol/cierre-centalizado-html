@@ -8,6 +8,7 @@
     <style  href="css-sans-serif.css">
         body {
             background: black;
+            font-family: sans-serif;
         }
 
         #auto {
@@ -23,27 +24,35 @@
         }
         #auto a img {
             position: absolute;
-            top :236px;
-            left: 145px;
-            height: 60px;
-            width: 60px;
+            top :225px;
+            left: 130px;
+            height: 90px;
+            width: 90px;
             border-radius: 100%;
           
         }
         header {
-            
+            margin:auto;
             position: relative;
-            margin: auto;
+           padding-top: 30px;
             width: 350px;
-            height: 104px;
+            height: 60px;
 
             
         }
-        header img {
-            position: absolute;
-            top: 74px;
-            left: 50px;
+
+        header #logo {
+        
+            width: auto;
+            float: left;
         }
+        header #exit {
+            width: auto;
+            float: right;
+        }
+
+
+
         #patente {
             position: relative;
             margin: auto;
@@ -73,7 +82,13 @@
     </style>
 </head>
 <header>
+   <div id="logo">
     <img src="./asset/02.png" alt="">
+   
+   </div>
+   <div id="exit">
+    <a href="#"><img src="./asset/exit.svg" alt=""></a>
+   </div>
 </header>
 <div id="patente">
     <p><h2>Patente : FFFF-46</h2></p>
